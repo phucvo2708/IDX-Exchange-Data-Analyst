@@ -22,3 +22,13 @@ MLS data is confidential, so raw data files and credentials are not included in 
 - Prepared the project for Week 1 dataset aggregation.
 
 # Week 1: 
+Week 1 combined the monthly MLS listing and sold datasets into unified datasets for analysis.
+
+### Tasks Completed
+
+- Loaded monthly listing files from January 2024 through the latest available month.
+- Loaded monthly sold files for the same period.
+- Combined the monthly listing files into one dataset.
+- Combined the monthly sold files into one dataset.
+- Recorded row counts before and after concatenation.
+- Filtered both datasets to include only records where:
