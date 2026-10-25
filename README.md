@@ -36,7 +36,7 @@ Week 1 combined the monthly MLS listing and sold datasets into unified datasets 
 # Week 2: 
 Week 2 focused on inspecting the combined residential datasets before further cleaning and analysis.
 
-## Week 2 Tasks Completed
+## Tasks Completed
 
 - Checked the number of rows and columns.
 - Reviewed column names and data types.
@@ -45,3 +45,16 @@ Week 2 focused on inspecting the combined residential datasets before further cl
 - Created numeric summaries for important real estate fields.
 - Generated histograms and boxplots to examine distributions and possible outliers.
 - Saved validation reports and charts locally.
+
+# Week 3:
+Week 3 added monthly mortgage-rate information to the combined MLS datasets.
+
+## Tasks Completed
+- Fetched the weekly MORTGAGE30US series from the Federal Reserve Economic Data website.
+- Converted the weekly mortgage rates into monthly averages.
+- Created a year_month key for the mortgage data.
+- Created a matching year_month key for the sold dataset using CloseDate.
+- Created a matching year_month key for the listings dataset using ListingContractDate.
+- Merged the monthly mortgage rates onto both MLS datasets.
+- Checked for missing mortgage rates after the merge.
+- Saved enriched sold and listing datasets locally.
