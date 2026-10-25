@@ -32,3 +32,16 @@ Week 1 combined the monthly MLS listing and sold datasets into unified datasets 
 - Combined the monthly sold files into one dataset.
 - Recorded row counts before and after concatenation.
 - Filtered both datasets to include only records where:
+
+# Week 2: 
+Week 2 focused on inspecting the combined residential datasets before further cleaning and analysis.
+
+## Week 2 Tasks Completed
+
+- Checked the number of rows and columns.
+- Reviewed column names and data types.
+- Reviewed the property types in the datasets.
+- Flagged columns with more than 90% missing values.
+- Created numeric summaries for important real estate fields.
+- Generated histograms and boxplots to examine distributions and possible outliers.
+- Saved validation reports and charts locally.
